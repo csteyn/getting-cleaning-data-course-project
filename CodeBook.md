@@ -41,11 +41,13 @@ This script transforms the raw data to a clean data file (avg_by_act_sub.txt) by
 From the intermediate data set a tidy data set is created where numeric variables are averaged for each activity and each subject.
 
 The tidy data set contains 180 observations with 81 variables divided in:
+
 1. An activity label (Activity): WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 2. An identifier of the subject who carried out the experiment (Subject): 1, 3, 5, 6, 7, 8, 11, 14, 15, 16, 17, 19, 21, 22, 23, 25, 26, 27, 28, 29, 30
 3. Feature vectors with time and frequency domain signal variables (numeric)
 
 Column names were adjusted by making the follwoing transformations within names:
+
 'Acc' to "Acceleration"
 'GyroJerk' to "AngularAcceleration"
 'Gyro' to "AngularSpeed"
